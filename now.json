@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/support/(.*)", "destination": "https://google.com/$1" }
+    { "source": "/support(.*)", "destination": "https://google.com$1" }
   ]
 }
